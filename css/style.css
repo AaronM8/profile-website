@@ -28,11 +28,7 @@ h1 {
   color: #484848;
 }
 
-/*nav bar section*/
-#navbar {
-  display: flex;
-  justify-content: flex-end;
-}
+/*navbar section*/
 
 /*portfolio section*/
 #profile {
