@@ -1,0 +1,49 @@
+/*UNIVERSAL*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:900|Raleway:400,700');
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  text-shadow: 2px 1px #000;
+}
+
+.h1, h1 {
+    font-size: 60px;
+}
+
+.playfair-text {
+  font-family: 'Playfair Display SC', serif;
+}
+
+.raleway-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.blue-text {
+  color: #4682B4;
+}
+
+.grey-text {
+  color: #484848;
+}
+
+/*nav bar section*/
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*portfolio section*/
+#profile {
+  display: flex;
+  justify-content: center;
+}
+
+h1.blue-text{
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/*my story section*/
