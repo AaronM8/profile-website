@@ -28,10 +28,7 @@ h1 {
   color: #484848;
 }
 
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
+
 
 /*navbar section*/
 
@@ -41,10 +38,29 @@ body {
   justify-content: center;
 }
 
-h1.blue-text{
+h1.blue-text {
   padding-bottom: 10px;
   display: flex;
   justify-content: center;
 }
 
+#hero-image {
+  background-image: url('../img/cs_tree_website.jpg');
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin: 25px 0px;
+}
+
 /*my story section*/
+#my-story p{
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+#aaron.my-photo img {
+  width:290px;
+  height:300px;
+  margin: 10% 25% 0px;
+}
