@@ -62,5 +62,24 @@ h1.blue-text {
 #aaron.my-photo img {
   width:290px;
   height:300px;
-  margin: 10% 25% 0px;
+  margin: 10% 25% 5%;
 }
+
+/*photos section*/
+#three-photos.photos {
+  background-color: #4682B4;
+}
+
+#three-photos.photos img {
+  width:290px;
+  height:290px;
+  margin-top: 30px;
+}
+.music-records,.pyramid,.stormtrooper-toy {
+  text-align: center;
+}
+
+/*contact section*/
+
+
+/*footer*/
