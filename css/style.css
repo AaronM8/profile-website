@@ -28,8 +28,6 @@ h1 {
   color: #484848;
 }
 
-
-
 /*navbar section*/
 
 /*portfolio section*/
@@ -58,7 +56,6 @@ h1.blue-text {
   justify-content: flex-start;
 }
 
-
 #aaron.my-photo img {
   width:290px;
   height:300px;
@@ -73,13 +70,71 @@ h1.blue-text {
 #three-photos.photos img {
   width:290px;
   height:290px;
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 .music-records,.pyramid,.stormtrooper-toy {
   text-align: center;
 }
 
-/*contact section*/
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
 
+.container-fluid:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*contact section*/
+.flex-container {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.form-container {
+  background-color: #F2F2F2;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.form-container h4 {
+  margin-top: 0px;
+}
+
+.contact-form textarea {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.danger {
+  border-color: #f00;
+}
 
 /*footer*/
