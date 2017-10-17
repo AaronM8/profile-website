@@ -4,7 +4,6 @@
     <title>Aaron Mercado Website</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -15,26 +14,34 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <!-- nav section starts -->
-  <div id="navbar">
-    <nav class="navbar navbar-default navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">AM</a>
-        </div>
-        <ul class="nav navbar-nav navbar-right">
+<div id="navbar">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">AM</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">My Story</a></li>
-          <li><a href="#">Get In Touch</a></li>
+          <li><a href="#my-story">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
+</div>
   <!-- nav section ends -->
   <!-- hero section begins -->
   <div class="container" id="hero-image">
     <div class="row">
       <div class="col-md-12">
         <h1 class="blue-text" "playfair-text">Aaron Mercado</h1>
+        <h3 class="white-text" "playfair-text">Web Developer</h3>
       </div>
     </div>
   </div>
@@ -105,9 +112,10 @@
   <!-- three photo section ends -->
   <!-- my story section ends -->
   <!-- contact page starts -->
+  <div id="contact">
   <div class="row flex-container justify-center">
     <div class="col-xs-10 col-sm-6 col-md-4 form-container">
-      <h4>Let's get in touch!</h4>
+      <h3>Let's get in touch!</h3>
       <form class="contact-form" id="emailForm" method="POST">
         <div class="form-group">
           <label for="name">Full Name:</label>
@@ -156,6 +164,7 @@
       </form>
     </div>
   </div>
+</div>
 <!-- contact page ends -->
 <!-- footer begins -->
 </footer>

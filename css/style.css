@@ -28,9 +28,12 @@ h1 {
   color: #484848;
 }
 
+.white-text {
+  color: #fff;
+}
 /*navbar section*/
-.navbar.navbar-default.navbar-inverse {
-  margin-bottom: 0px !important;
+.navbar {
+  margin: 0;
 }
 
 /*hero section*/
@@ -46,6 +49,12 @@ h1.blue-text {
   margin-top: 85px;
   display: flex;
   justify-content: center;
+}
+
+h3.white-text{
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 1px #000;
 }
 
 /*portfolio section*/
