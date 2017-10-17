@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  text-shadow: 2px 1px #000;
+  text-shadow: 2px 1px #191919;
 }
 
 .h1, h1 {
@@ -36,25 +36,32 @@ h1 {
   margin: 0;
 }
 
+.navbar-inverse {
+  background-color: #191919;
+  border-color: #202020;
+}
+
 /*hero section*/
 #hero-image {
   background-image: url('../img/rolled_up_maps.jpg');
   background-size: cover;
-  height: 250px;
+  height: 400px;
   width: 100%;
   margin: 0px 0px 25px;
 }
 
 h1.blue-text {
-  margin-top: 85px;
+  margin-top: 160px;
   display: flex;
   justify-content: center;
 }
 
-h3.white-text{
+h2.white-text{
   display: flex;
   justify-content: center;
-  text-shadow: 2px 1px #000;
+  text-shadow: 2px 1px #191919;
+  text-decoration: underline;
+  margin-top: -10px;
 }
 
 /*portfolio section*/
@@ -63,21 +70,23 @@ h3.white-text{
   justify-content: center;
 }
 
+h3.grey-text {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-paragraph {
+  margin-bottom: 40px;
+}
+
 #website-image {
-  background-image: url('../img/cs_tree_website.jpg');
+  background-image: url('../img/apple_desktop_monitor.jpg');
   background-size: cover;
   height: 200px;
   width: 100%;
-  margin: 25px 0px;
 }
-/*navbar*/
-.navbar-inverse {
-  background-color: #191919;
-  border-color: #202020;
-}
-
-/*my story section*/
-#my-story p{
+/*my story*/
+#my-story p h3{
   display: flex;
   justify-content: flex-start;
 }
@@ -85,7 +94,7 @@ h3.white-text{
 #aaron.my-photo img {
   width:290px;
   height:300px;
-  margin: 10% 25% 5%;
+  margin: 10% 35% 10%;
   box-shadow: 10px 10px 5px #888888;
 }
 
@@ -98,6 +107,9 @@ h3.white-text{
   width:290px;
   height:290px;
   margin: 30px 0px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #191919;
 }
 .music-records,.pyramid,.stormtrooper-toy {
   text-align: center;
@@ -133,6 +145,12 @@ h3.white-text{
 }
 
 /*contact section*/
+/*#contact {
+  background-image: url('../img/cement.jpg');
+  background-size: cover;
+  width: 100%;
+}*/
+
 .flex-container {
   display: flex;
 }
