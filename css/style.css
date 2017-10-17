@@ -29,6 +29,24 @@ h1 {
 }
 
 /*navbar section*/
+.navbar.navbar-default.navbar-inverse {
+  margin-bottom: 0px !important;
+}
+
+/*hero section*/
+#hero-image {
+  background-image: url('../img/rolled_up_maps.jpg');
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  margin: 0px 0px 25px;
+}
+
+h1.blue-text {
+  margin-top: 85px;
+  display: flex;
+  justify-content: center;
+}
 
 /*portfolio section*/
 #profile {
@@ -36,18 +54,17 @@ h1 {
   justify-content: center;
 }
 
-h1.blue-text {
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-#hero-image {
+#website-image {
   background-image: url('../img/cs_tree_website.jpg');
   background-size: cover;
   height: 200px;
   width: 100%;
   margin: 25px 0px;
+}
+/*navbar*/
+.navbar-inverse {
+  background-color: #191919;
+  border-color: #202020;
 }
 
 /*my story section*/
@@ -60,6 +77,7 @@ h1.blue-text {
   width:290px;
   height:300px;
   margin: 10% 25% 5%;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 /*photos section*/
@@ -81,7 +99,7 @@ h1.blue-text {
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #202020;
   overflow: hidden;
   width: 100%;
   height:0;
@@ -120,8 +138,9 @@ h1.blue-text {
 
 .form-container {
   background-color: #F2F2F2;
-  margin-top: 25px;
+  margin: 25px 0px 25px;
   padding: 20px;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 .form-container h4 {
@@ -138,3 +157,6 @@ h1.blue-text {
 }
 
 /*footer*/
+footer {
+  background-color: #191919;
+}
