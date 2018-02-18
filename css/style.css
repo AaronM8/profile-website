@@ -8,8 +8,8 @@ h1 {
   text-shadow: 2px 1px #191919;
 }
 
-.h1, h1 {
-    font-size: 60px;
+h3 {
+  font-size: 20px;
 }
 
 .playfair-text {
@@ -47,38 +47,28 @@ h1 {
   background-size: cover;
   height: 400px;
   width: 100%;
-  margin: 0px 0px 25px;
+  margin: 0px 0px 5px;
 }
 
-h1.blue-text {
+.aaron-txt {
   margin-top: 160px;
-  display: flex;
-  justify-content: center;
+  font-size:38px;
 }
 
-h2.white-text{
-  display: flex;
-  justify-content: center;
+.web-dev-txt {
   text-shadow: 2px 1px #191919;
-  text-decoration: underline;
   margin-top: -10px;
+  font-size: 25px;
 }
 
-
-
-/*portfolio section*/
-#profile {
+.aaron-txt, .web-dev-txt {
+  background-color: rgba(0,0,0,0.4);
   display: flex;
   justify-content: center;
 }
 
-h3.grey-text {
-  display: flex;
-  justify-content: center;
-}
-
-.profile-paragraph {
-  margin-bottom: 40px;
+.profile-para {
+  margin-bottom: 20px;
 }
 
 #website-image {
@@ -88,6 +78,9 @@ h3.grey-text {
   width: 100%;
 }
 /*my story*/
+.story-col {
+  margin-top: 5%;
+}
 #my-story p h3{
   display: flex;
   justify-content: flex-start;
@@ -96,63 +89,42 @@ h3.grey-text {
 #aaron.my-photo img {
   width:290px;
   height:300px;
-  margin: 10% 35% 10%;
+  margin: 20px 0px 30px 0px;
   box-shadow: 10px 10px 5px #888888;
 }
 
-/*photos section*/
-#three-photos.photos {
-  background-color: #4682B4;
-}
-
-#three-photos.photos img {
-  width:290px;
-  height:290px;
-  margin: 30px 0px;
-  border-style: solid;
-  border-width: 4px;
-  border-color: #191919;
-}
-.music-records,.pyramid,.stormtrooper-toy {
-  text-align: center;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #202020;
-  overflow: hidden;
+#double-monitors-img {
+  background-image: url('../img/double-monitors.jpg');
+  background-size: cover;
+  height: 200px;
   width: 100%;
-  height:0;
-  transition: .5s ease;
 }
 
-.container-fluid:hover .overlay {
-  bottom: 0;
-  height: 100%;
+/*skills section*/
+img.center-block.img-responsive.icon {
+  margin-top: 10px;
 }
 
-.text {
-  white-space: nowrap;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.label {
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span.label.label-danger:hover {
+  background-color: #f2cccb;
+}
+
+#code-monitor-img {
+  background-image: url('../img/code_monitor.jpg');
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin-top: 25px;
 }
 
 /*contact section*/
-/*#contact {
-  background-image: url('../img/cement.jpg');
-  background-size: cover;
-  width: 100%;
-}*/
-
 .flex-container {
   display: flex;
 }
@@ -183,9 +155,4 @@ h3.grey-text {
 
 .danger {
   border-color: #f00;
-}
-
-/*footer*/
-footer {
-  background-color: #191919;
 }

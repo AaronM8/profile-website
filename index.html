@@ -10,7 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <!-- nav section starts -->
@@ -28,8 +28,9 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#my-story">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#my-story">My Story</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Get In Touch</a></li>
         </ul>
       </div>
     </div>
@@ -40,18 +41,20 @@
   <div class="container" id="hero-image">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="blue-text" "playfair-text">Aaron Mercado</h1>
-        <h2 class="white-text" "playfair-text">Web Developer</h2>
+        <div class="col-md-6 col-sm-6 col-xs-12 hero-txt">
+          <h1 class="blue-text playfair-text aaron-txt">Aaron Mercado</h1>
+          <h2 class="white-text playfair-text web-dev-txt">Web Developer</h2>
+        </div>
       </div>
     </div>
   </div>
   <!-- hero section ends -->
   <!-- profile secton begins -->
-  <div class="container" id="profile">
+  <div class="container" id="profile" align="center">
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <h3 class="grey-text" "playfair-text">Portfolio</h3>
-        <p class="raleway-text profile-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sem tortor, id iaculis purus pharetra vel. In nunc elit, aliquet et enim fermentum, blandit vulputate sapien. Proin tempor orci ut vulputate suscipit. In ut dui vel tellus sodales vehicula id quis lectus. Suspendisse sit amet cursus mi. Quisque suscipit luctus lectus, in pretium odio tincidunt non. Phasellus et tempor est. Praesent commodo mi ut diam congue, eu efficitur urna.</p>
+        <h3 class="grey-text playfair-text">Portfolio</h3>
+        <p class="raleway-text profile-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sem tortor, id iaculis purus pharetra vel. In nunc elit, aliquet et enim fermentum, blandit vulputate sapien. Proin tempor orci ut vulputate suscipit. In ut dui vel tellus sodales vehicula id quis lectus. Suspendisse sit amet cursus mi. Quisque suscipit luctus lectus, in pretium odio tincidunt non. Phasellus et tempor est. Praesent commodo mi ut diam congue, eu efficitur urna.</p>
       </div>
     </div>
   </div>
@@ -67,136 +70,149 @@
   <!-- my story section begings -->
     <div class="container" id="my-story">
       <div class="row">
-        <div class="col-md-7">
-          <h3 class="grey-text" "playfair-text" "story">My Story</h3> <!-- my story paragraph starts-->
-          <p class="grey-text raleway-text story-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sem tortor, id iaculis purus pharetra vel. In nunc elit, aliquet et enim fermentum, blandit vulputate sapien. Proin tempor orci ut vulputate suscipit. In ut dui vel tellus sodales vehicula id quis lectus. Suspendisse sit amet cursus mi. Quisque suscipit luctus lectus, in pretium odio tincidunt non. Phasellus et tempor est. Praesent commodo mi ut diam congue, eu efficitur urna vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sem tortor, id iaculis purus pharetra vel. In nunc elit, aliquet et enim fermentum, blandit vulputate sapien. Proin tempor orci ut vulputate suscipit. In ut dui vel tellus sodales vehicula id quis lectus. Suspendisse sit amet cursus mi. Quisque suscipit luctus lectus, in pretium odio tincidunt non. Phasellus et tempor est. Praesent commodo mi ut. </p>
+        <div class="col-xs-12 col-sm-6 col-md-6 story-col">
+          <h3 class="grey-text playfair-text story-header" align="center">My Story</h3> <!-- my story paragraph starts-->
+          <p class="grey-text raleway-text story-paragraph" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sem tortor, id iaculis purus pharetra vel. In nunc elit, aliquet et enim fermentum, blandit vulputate sapien. Proin tempor orci ut vulputate suscipit. In ut dui vel tellus sodales vehicula id quis lectus. Suspendisse sit amet cursus mi. Quisque suscipit luctus lectus, in pretium odio tincidunt non. Phasellus et tempor est. Praesent commodo mi ut diam congue, eu efficitur urna vulputate. Lorem ipsum dolor sit amet.</p>
         </div>
       <!-- my story paragraph ends -->
       <!-- my photo stars -->
-      <div class="col-md-5">
-        <div id="aaron" class="my-photo">
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <div id="aaron" class="my-photo"  align="center">
           <img src="img/aaron.jpg" alt="aaron">
         </div>
       </div>
     </div>
   </div>
   <!-- my photo ends -->
-  <!-- three photo section begins -->
-  <div class="container-fluid photos" id="three-photos">
+  <div class="container" id="double-monitors-img">
     <div class="row">
-        <div class="col-md-4">
-          <div class="music-records">
-            <img src="img/music_records.jpg" alt="music records" class="music-records">
-            <div class="overlay">
-              <div class="text">Music</div>
-            </div>
-          </div>
-        </div>
-      <div class="col-md-4">
-        <div class="pyramid">
-          <img src="img/pyramid_of_the_sun.jpg" alt="sun pyramid" class="pyramid">
-            <div class="overlay">
-              <div class="text">History</div>
-            </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="stormtrooper-toy">
-          <img src="img/stormtrooper_lightbulb.jpg" alt="stormtrooper and lightbulb" class="stormtrooper-toy">
-            <div class="overlay">
-              <div class="text">Star Wars</div>
-            </div>
-        </div>
+      <div class="col-md-12">
       </div>
     </div>
   </div>
-  <!-- three photo section ends -->
   <!-- my story section ends -->
-  <!-- contact from starts -->
-<div id="contact">
-  <div class="row flex-container justify-center">
-    <div class="col-xs-10 col-sm-6 col-md-4 form-container">
-      <h3>Let's get in touch!</h3>
-      <form class="contact-form" id="emailForm" method="POST">
-        <div class="form-group">
-          <label for="name">Full Name:</label>
-          <input type="text"
-                 class="form-control"
-                 id="name"
-                 name="name"
-                 required>
+  <!-- skills section begins -->
+<div id="skills">
+  <div class="row">
+    <div class="container">
+        <div class="col-md-12">
+          <h3 class="grey-text playfair-text skills-header" align="center">Skills</h3>
         </div>
-        <div class="form-group">
-          <label for="email">Email Address:</label>
-          <input type="text"
-                 class="form-control"
-                 id="email"
-                 name="_replyto"
-                 required>
+      <div class="row icons">
+        <div class="col-md-6 col-sm-6 col-xs-12"> <!-- html icon -->
+          <img src="img/icons/html.png" alt="Html Icon" class="center-block img-responsive html-icon icon">
+          <h5 class="grey-text" align="center">HTML</h5>
+          <p class="grey-text" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac.</p>
+          <span class="label label-success">Proficient</span>
         </div>
-        <div class="form-group">
-          <label for="phone">Phone Number:</label>
-          <input type="text"
-                 class="form-control"
-                 id="phone"
-                 name="phone">
+        <div class="col-md-6 col-sm-6 col-xs-12"> <!-- css icon -->
+          <img src="img/icons/css.png" alt="Css Icon" class="center-block img-responsive css-icon icon">
+          <h5 class="grey-text" align="center">CSS</h5>
+          <p class="grey-text" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac.</p>
+          <span class="label label-success">Proficient</span>
         </div>
-        <div class="form-group">
-          <label for="message">Your Message:</label>
-          <textarea type="text"
-                    class="form-control"
-                    id="message"
-                    name="message"
-                    maxlength="200"
-                    required>
-          </textarea>
-          <p id="maxCharacters"></p>
-          <input type="hidden"
-                 name="_subject"
-                 value="Website contact" />
-          <input type="hidden"
-                 name="_gotcha"/>
+        <div class="col-md-6 col-sm-6 col-xs-12"> <!-- javascript icon -->
+          <img src="img/icons/javascript.png" alt="Javascrip Icon" class="center-block img-responsive javascrip-icon icon">
+          <h5 class="grey-text" align="center">Javascrip</h5>
+          <p class="grey-text" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac.</p>
+          <span class="label label-info">Familiar</span>
         </div>
-        <button class="btn btn-sm btn-primary"
-                type="submit"
-                id="submitButton">
-            Submit
-        </button>
-      </form>
+        <div class="col-md-6 col-sm-6 col-xs-12"> <!-- wordpress icon -->
+          <img src="img/icons/wordpress.png" alt="Wordpress Icon" class="center-block img-responsive wordpress-icon icon">
+          <h5 class="grey-text" align="center">WordPress</h5>
+          <p class="grey-text" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac.</p>
+          <span class="label label-info">Familiar</span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12"> <!-- bootstrap icon -->
+          <img src="img/icons/b.png" alt="Purple B" class="center-block img-responsive b-icon icon">
+          <h5 class="grey-text" align="center">Bootstrap</h5>
+          <p class="grey-text" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac.</p>
+          <span class="label label-success">Proficient</span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12"> <!-- photoshop icon -->
+          <img src="img/icons/photoshop.png" alt="Photoshop" class="center-block img-responsive photoshop-icon icon">
+          <h5 class="grey-text" align="center">Photoshop</h5>
+          <p class="grey-text" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac.</p>
+          <span class="label label-warning">Beginner</span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12"> <!-- mockups icon -->
+          <img src="img/icons/mockups.png" alt="Mockups" class="center-block img-responsive mockups-icon icon">
+          <h5 class="grey-text" align="center">Mockups / Wireframes</h5>
+          <p class="grey-text" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac.</p>
+          <span class="label label-success">Proficient</span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12"> <!-- github icon -->
+          <img src="img/icons/github-logo.png" alt="Github" class="center-block img-responsive github-icon icon">
+          <h5 class="grey-text" align="center">GitHub</h5>
+          <p class="grey-text" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac.</p>
+          <a href="https://github.com/AaronM8"><span class="label label-danger">My GitHub Repos!</span></a>
+      </div>
     </div>
   </div>
 </div>
-<!-- contact from ends -->
-<!-- footer begins -->
-</footer>
-<footer class="container-fluid">
-	<div class="row">
-		<div class="container">
-			<div class="row medium-grey"><!-- row for the three columns in the footer starts!-->
-				<div class="col-md-3 section-border"> <!-- footer head begins!-->
-					<h6>Aaron Mercado</h6>
-				</div> <!-- footer head ends!-->
-				<div class="col-md-3 section-border">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">My Story</a></li>
-          <li><a href="#">Get In Touch</a></li>
-				</div>
-				<div class="col-md-3"><!--SOCIAL MEDIA STARTS HERE-->
-        	<ul class="social-media">
-            <i class="fa fa-phone-square" aria-hidden="true"></i>
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            <i class="fa fa-github-square" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-snapchat-square" aria-hidden="true"></i>
-        	</ul>
+  <!-- skill section ends -->
+  <div class="container" id="code-monitor-img">
+    <div class="row">
+      <div class="col-md-12">
       </div>
-		</div>
-	</div>
-	<div class="row"> <!--copyright row starts!-->
-		<div class="col-md-12 text-center">&copy;Aaron Mercado. All Rights Reseve</div>
-	</div>
-</footer>
-<!-- footer ends -->
+    </div>
+  </div>
+
+  <!-- contact from starts -->
+  <div id="contact">
+    <div class="row flex-container justify-center">
+      <div class="col-xs-10 col-sm-6 col-md-4 form-container">
+        <h3>Let's get in touch!</h3>
+        <form class="contact-form" id="emailForm" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text"
+                   class="form-control"
+                   id="name"
+                   name="name"
+                   required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="text"
+                   class="form-control"
+                   id="email"
+                   name="_replyto"
+                   required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="text"
+                   class="form-control"
+                   id="phone"
+                   name="phone">
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea type="text"
+                      class="form-control"
+                      id="message"
+                      name="message"
+                      maxlength="200"
+                      required>
+            </textarea>
+            <p id="maxCharacters"></p>
+            <input type="hidden"
+                   name="_subject"
+                   value="Website contact" />
+            <input type="hidden"
+                   name="_gotcha"/>
+          </div>
+          <button class="btn btn-sm btn-primary"
+                  type="submit"
+                  id="submitButton">
+              Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+<!-- contact from ends -->
   <script src="js/script.js"></script>
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   <script
