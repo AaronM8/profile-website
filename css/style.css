@@ -31,100 +31,7 @@ h3 {
 .white-text {
   color: #fff;
 }
-/*navbar section*/
-.navbar {
-  margin: 0;
-}
 
-.navbar-inverse {
-  background-color: #191919;
-  border-color: #202020;
-}
-
-/*hero section*/
-#hero-image {
-  background-image: url('../img/rolled_up_maps.jpg');
-  background-size: cover;
-  height: 400px;
-  width: 100%;
-  margin: 0px 0px 5px;
-}
-
-.aaron-txt {
-  margin-top: 160px;
-  font-size:38px;
-}
-
-.web-dev-txt {
-  text-shadow: 2px 1px #191919;
-  margin-top: -10px;
-  font-size: 25px;
-}
-
-.aaron-txt, .web-dev-txt {
-  background-color: rgba(0,0,0,0.4);
-  display: flex;
-  justify-content: center;
-}
-
-.profile-para {
-  margin-bottom: 20px;
-}
-
-#website-image {
-  background-image: url('../img/apple_desktop_monitor.jpg');
-  background-size: cover;
-  height: 200px;
-  width: 100%;
-}
-/*my story*/
-.story-col {
-  margin-top: 5%;
-}
-#my-story p h3{
-  display: flex;
-  justify-content: flex-start;
-}
-
-#aaron.my-photo img {
-  width:290px;
-  height:300px;
-  margin: 20px 0px 30px 0px;
-  box-shadow: 10px 10px 5px #888888;
-}
-
-#double-monitors-img {
-  background-image: url('../img/double-monitors.jpg');
-  background-size: cover;
-  height: 200px;
-  width: 100%;
-}
-
-/*skills section*/
-img.center-block.img-responsive.icon {
-  margin-top: 10px;
-}
-
-.label {
-  font-size: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-span.label.label-danger:hover {
-  background-color: #f2cccb;
-}
-
-#code-monitor-img {
-  background-image: url('../img/code_monitor.jpg');
-  background-size: cover;
-  height: 200px;
-  width: 100%;
-  margin-top: 25px;
-}
-
-/*contact section*/
 .flex-container {
   display: flex;
 }
@@ -137,11 +44,90 @@ span.label.label-danger:hover {
   justify-content: center;
 }
 
+/*Navbar Section*/
+.navbar-default {
+  background-color: #101010;
+  border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #696969;
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #4682b4;
+  background-color: #696969;
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
+}
+/*Hero Sction*/
+#hero-image { /*hero img*/
+  background-image: url('../img/rolled_up_maps.jpg');
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: 0px 0px 5px;
+}
+.am-logo {
+  margin-top: 145px;
+  width: 300px;
+  background-color: rgba(228, 228, 228, 0.58)
+}
+/*profile section*/
+.profile-para {
+  margin-bottom: 20px;
+}
+#apple-dektop-img { /*divider image*/
+  background-image: url('../img/apple_desktop_monitor.jpg');
+}
+#double-monitors-img { /*divider image*/
+  background-image: url('../img/double-monitors.jpg');
+}
+#code-monitor-img { /*divider image*/
+  background-image: url('../img/code_monitor.jpg');
+  margin-top: 25px;
+}
+#apple-dektop-img, #double-monitors-img, #code-monitor-img { /*all divider images*/
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+/*my story*/
+.story-col {
+  margin-top: 5%;
+}
+#my-story p h3{
+  display: flex;
+  justify-content: flex-start;
+}
+#aaron.my-photo img { /*Profile Img*/
+  width:290px;
+  height:300px;
+  margin: 20px 0px 30px 0px;
+  box-shadow: 4px 4px 1px #888888;
+}
+/*skills section*/
+img.center-block.img-responsive.icon { /*Icon margin-top*/
+  margin-top: 10px;
+}
+.label { /*Level of skills font size*/
+  font-size: 100%;
+}
+span.label.label-danger:hover { /*Button Link to Github Account*/
+  background-color: #f2cccb;
+}
+span {
+  width: 350px
+}
+
+/*contact section*/
 .form-container {
-  background-color: #F2F2F2;
-  margin: 25px 0px 25px;
+  background-color: #d2d2d2;
+  margin-top: 25px;
   padding: 20px;
-  box-shadow: 10px 10px 5px #888888;
 }
 
 .form-container h4 {
